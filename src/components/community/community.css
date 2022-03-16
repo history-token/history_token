@@ -1,0 +1,68 @@
+.community-section{
+    background-color: white;
+}
+
+.community-section .title{
+    height: 100px;
+    position: relative;
+    background-image: url("/public/Assets/communities.jpg");
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.community-section .title > span{
+    position: absolute;
+    font-family: var(--font-family);
+    font-style: normal;
+    bottom: 10px;
+    left: 20px;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 30px;
+    color: #48463E;
+}
+
+.community-section .communities-wrapper .community {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    padding-left: 25px;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.32);
+}
+
+.community-section .communities-wrapper .community img{
+    max-width: 30px;
+    min-width: 30px;
+    max-height: 30px;
+    min-height: 30px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.community-section .communities-wrapper .community .name{
+    position: absolute;
+    font-family: var(--font-family2);
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 60px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+
+}
+
+.community-section .communities-wrapper .community .number{
+    position: absolute;
+    font-family: var(--font-family2);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.community-section .action-buttons .secondary-buttons {
+    display: flex;
+    gap: 10px;
+    padding: 0px 32px;
+}

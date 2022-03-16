@@ -1,0 +1,64 @@
+.btnOut{
+    padding: 8px 40px;
+    border: 2px solid var(--primary-color2);
+    border-radius: 20px;
+    background-color: var(--primary-color2);
+    background: transparent;
+    color: var(--primary-color2);
+    font-weight: 400;
+    font-size: 17px;
+    font-family: var(--font-family2);
+    margin: 0px 17px;
+}
+
+
+.btnCont{
+    padding: 8px 40px;
+    border: 2px solid var(--primary-color2);
+    border-radius: 20px;
+    background-color: var(--primary-color2);
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: var(--font-family2);
+    margin: 0px 17px;
+}
+
+.btnComm{
+    padding: 8px 40px;
+    border: 2px solid #8A836E;
+    border-radius: 20px;
+    background-color: #8A836E;
+    height: 38px;
+    color: white;
+    font-weight: 400;
+    width: 300px;
+    font-size: 17px;
+    font-family: var(--font-family2);
+    margin: 27px 27px;
+}
+
+
+.btnCommJoin{
+    border: 2px solid #8A836E;
+    border-radius: 20px;
+    background-color: #8A836E;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: var(--font-family2);
+    padding: 0px 18px;
+    margin-left: 182px;
+}
+
+.btnCommOther{
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(173, 140, 59, 0.26);
+    color: #48463E;;
+    font-weight: 420;
+    font-size: 15px;
+    font-family: var(--font-family2);
+    margin-bottom: 20px;
+    padding: 2px 10px;
+} 

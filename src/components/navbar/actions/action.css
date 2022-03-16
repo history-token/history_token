@@ -1,0 +1,16 @@
+.action{
+    display: flex;
+    align-items: center;
+}
+
+.action div:nth-child(2) {
+    margin: 0px 10px;
+}
+
+/* .primary-button {
+    color: black;
+}
+
+.secondary-button {
+    color: var(--primary-color2);
+} */

@@ -1,0 +1,16 @@
+:root{
+  /* global css var */
+  --border-radius: 3px;
+  --primary-color: #8A836E;
+  --primary-color2:#AD8C3B;
+  --font-family: Sitka;
+  --font-family: Poppins;
+  background-color: #EAEAEA;
+
+}
+
+
+.hoverable:hover{
+  cursor: pointer;
+}
+

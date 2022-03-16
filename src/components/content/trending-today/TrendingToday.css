@@ -1,0 +1,71 @@
+.trending-today-section .title{
+    font-size: 20px;
+    font-family: var(--font-family2);
+    color: #48463E;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.trending-today-section .items{
+    display: flex;
+    margin-top: 10px;
+}
+
+.trending-today-section .items .trending-item {
+    width: 100%;
+    height: 220px;
+    margin: 0px 8px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+}
+
+.trending-today-section .items .trending-item .context {
+    position: absolute;
+    bottom: 0px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.trending-today-section .items .trending-item:first-child{
+    margin-left: 0px;
+}
+
+.trending-today-section .items .trending-item:last-child{
+    margin-right: 0px;
+}
+
+.trending-today-section .items .trending-item .context .title{
+    font-family: var(--font-family2);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    color: white;
+}
+
+.trending-today-section .items .trending-item .context .description{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-family: var(--font-family2);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.trending-today-section .items .trending-item .context .subhstk{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.trending-today-section .items .trending-item .context .subhstk img{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}

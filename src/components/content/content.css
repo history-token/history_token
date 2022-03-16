@@ -1,0 +1,25 @@
+.content {
+    width: 980px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.bar-wrapper{
+    margin: 0px 5px;
+    margin-top: 15px;
+}
+
+.popular-posts-title{
+    font-family: var(--font-family2);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #48463E;
+}
+
+.bar-wrapper-inside{
+    display: flex;
+}
+
